@@ -13,7 +13,7 @@ async def send_invoice(update: Update, context: ContextTypes.DEFAULT_TYPE):
         payload="full_analysis",
         provider_token="",
         currency="XTR",
-        prices=[LabeledPrice("Full Analysis", 3)]
+        prices=[LabeledPrice("Full Analysis", 300)]
     )
 
 async def pre_checkout(update: Update, context: ContextTypes.DEFAULT_TYPE):
